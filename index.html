@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mackenzie Stegink">
+        <meta name="description" content="The homepage for the capstone project for AME 485 about adoption & adoptees.">
+        <meta name="keywords" content="adoption, adoptee, mental health, identity, loneliness">
+        <title>Adoptee Resources - Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Adoptee Resources</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="identity.html">Identity</a></li>
+                    <li><a href="mentalhealth.html">Mental Health</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <br>
+            <div class="homeimgs">
+                <div class="alert warning">
+                    <span class="closebtn">&times;</span>  
+                    <strong>Warning!</strong> This website is meant to be viewed on a large screen. Please view this content on a laptop or desktop for best experience!
+                </div>
+
+                <script>
+                    var close = document.getElementsByClassName("closebtn");
+                    var i;
+
+                    for (i = 0; i < close.length; i++) {
+                        close[i].onclick = function(){
+                        var div = this.parentElement;
+                        div.style.opacity = "0";
+                        setTimeout(function(){ div.style.display = "none"; }, 600);
+                        }
+                    }
+                </script>
+                    <a id="identity" href="identity.html">Identity</a>
+                    <a id="mentalhealth" href="mentalhealth.html">Mental Health</a>
+                    <a id="health" href="health.html">Health</a>
+                    <a id="resources" href="resources.html">Resources</a>
+            </div>
+            <h3>A place to find information about the impact of adoption throughout life</h3>
+            <h4>Our Mission</h4>
+            <p>This site was created to shine a light on the emotional realities of adoption; both the beauty and the grief. Too often, adoptee voices are overlooked, misunderstood, or silenced.</p>
+            <p>My goal is to provide a space where adoptees feel seen, supported, and respected, and where non-adoptees can learn about the adoptee experience. Adoption is complex. Trying to understand the emotions of adoptees is the first step toward meaningful support</p>
+            <h4>Adoption throughout Life</h4>
+            <p>Adoption is not a single event; it is a lifelong emotional journey. As adoptees grow, their understanding of themselves and their story often evolves. Childhood confusion may turn into deeper identity questions in adolescence, and adulthood may bring reflection about roots, belonging, and relationships.</p>
+            <p>Healing is not linear, and every adoptee’s experience is unique. Recognizing adoption as a lifelong process helps create space for ongoing support, empathy, and understanding.</p>
+            <br><br>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Identity</a></li>
+                <li><a href="mentalhealth.html">Mental Health</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+            <p>&copy;2025 Mackenzie Stegink</p>
+        </footer>
+    </body>
+</html>

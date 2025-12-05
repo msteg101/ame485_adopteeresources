@@ -1,0 +1,410 @@
+:root {
+  --text: #0c0116;
+  --text-50: #f3e7fe;
+  --text-100: #e6cefd;
+  --text-200: #ce9efa;
+  --text-300: #b56df8;
+  --text-400: #9c3cf6;
+  --text-500: #830bf4;
+  --text-600: #6909c3;
+  --text-700: #4f0792;
+  --text-800: #350561;
+  --text-900: #1a0231;
+  --text-950: #0d0118;
+
+  --background: #f5f2f8;
+  --background-50: #f2eef6;
+  --background-100: #e6deed;
+  --background-200: #ccbddb;
+  --background-300: #b29cc9;
+  --background-400: #997ab8;
+  --background-500: #7f59a6;
+  --background-600: #664785;
+  --background-700: #4c3663;
+  --background-800: #332442;
+  --background-900: #191221;
+  --background-950: #0d0911;
+
+  --primary: #f481bc;
+  --primary-50: #fde8f3;
+  --primary-100: #fbd0e6;
+  --primary-200: #f7a1cd;
+  --primary-300: #f372b5;
+  --primary-400: #ef439c;
+  --primary-500: #eb1483;
+  --primary-600: #bc1069;
+  --primary-700: #8d0c4f;
+  --primary-800: #5e0834;
+  --primary-900: #2f041a;
+  --primary-950: #17020d;
+
+  --secondary: #bdbdff;
+  --secondary-50: #e5e5ff;
+  --secondary-100: #ccccff;
+  --secondary-200: #9999ff;
+  --secondary-300: #6666ff;
+  --secondary-400: #3333ff;
+  --secondary-500: #0000ff;
+  --secondary-600: #0000cc;
+  --secondary-700: #000099;
+  --secondary-800: #000066;
+  --secondary-900: #000033;
+  --secondary-950: #00001a;
+
+  --accent: #92bf8a;
+  --accent-50: #f0f6ef;
+  --accent-100: #e0edde;
+  --accent-200: #c2dbbd;
+  --accent-300: #a3c99c;
+  --accent-400: #84b77b;
+  --accent-500: #66a45b;
+  --accent-600: #518448;
+  --accent-700: #3d6336;
+  --accent-800: #294224;
+  --accent-900: #142112;
+  --accent-950: #0a1009;
+}
+
+/* Root / Base */
+html {
+  font-size: 17.5px; /* Set the root font size */
+}
+
+body {
+  background-color: var(--background-100);
+  color: var(--text);
+  margin: 10px;
+  padding: 1px;
+}
+
+/* Typography: font helper classes */
+.elsie-regular {
+  font-family: "Elsie", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.elsie-black {
+  font-family: "Elsie", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.karla-light {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.karla-regular {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.karla-bold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.karla-italic {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Text elements */
+p {
+  font-family: "Karla", sans-serif;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--primary-600);
+  text-decoration: none;
+}
+
+/* Headings */
+h1 {
+  font-family: "Elsie", serif;
+  color: var(--text-900);
+  font-size: 5.61rem;
+  text-align: center;
+  margin: 0 auto 0.2rem auto;
+  padding: auto 20px;
+}
+
+h2 {
+  font-family: "Elsie", serif;
+  color: var(--text);
+  font-size: 4.209rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1000px;
+  
+}
+
+h3 {
+  font-family: "Elsie", serif;
+  color: var(--text);
+  font-size: 3.157rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: auto 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-family: "Elsie", serif;
+  color: var(--text);
+  font-size: 2.369rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: left;
+  padding: 5px 0;
+}
+
+.srchead {
+  font-family: "Elsie", serif;
+  color: var(--text);
+  font-size: 2.369rem;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.src {
+  display: block;
+  font-family: "Karla", sans-serif;
+  color: var(--text);
+  font-size: 0.75rem;
+  text-align: center;
+  list-style: none;
+}
+.srcs {
+  display: block;
+  font-family: "Karla", sans-serif;
+  color: var(--text);
+  font-size: 1rem;
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 1rem;
+}
+
+/* Navigation */
+nav {
+  color: var(--text-600);
+  font-family: "Karla", sans-serif;
+  font-size: 1.33rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+#leftblocking ul {
+  display: block;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+}
+
+/* Layout / Utilities */
+.support {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Components */
+.quote {
+  border-left: 4px solid var(--primary);
+  margin: 1.5rem 0;
+  font-weight: 800;
+  background-color: var(--background-100);
+  padding: 1rem;
+}
+
+.alert {
+  padding: 20px;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.warning {
+  position: relative;
+  background-color: var(--primary-600);
+  z-index: 20;
+  top: -400px;
+  font-family: "Karla", sans-serif;
+  font-size: 1.333rem;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 42px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 30px;
+}
+
+.closebtn:hover {
+  color: var(--background-950);
+}
+
+#identity, #mentalhealth, #health, #resources {
+  position: relative;
+  z-index: 10;
+  color: var(--text-50);
+  background-color: var(--accent-700);
+  font-family: "Elsie", serif;
+  font-size: 3.157rem;
+  transition: transform 0.2s ease;
+}
+
+#identity     { top: 80px; left: 150px; }
+#mentalhealth { top: 20px; left: 250px; }
+#health       { top: -90px; left: -370px; }
+#resources    { bottom: -310px; right: -150px; }
+
+#identity:hover,
+#mentalhealth:hover,
+#health:hover,
+#resources:hover {
+  box-shadow: 0 0 16px rgba(248, 129, 188, 0.8);
+  background-color: var(--accent-600);
+}
+.misconceptions {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Karla", sans-serif;
+  color: var(--text-900);
+  font-size: 1.333rem;
+}
+.quote {
+  border-left: 4px solid var(--primary);
+  margin: 1.5rem auto;
+  font-weight: 800;
+  background-color: var(--background-100);
+  padding: 1rem;
+  max-width: 1100px;
+  justify-content: center;
+}
+#experiences {
+  position: relative;
+  z-index: 10;
+  color: var(--text-50);
+  background-color: var(--accent-700);
+  font-family: "Elsie", serif;
+  font-size: 1.333rem;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 1rem;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.75rem;
+  font-family: "Karla", sans-serif;
+  background-color: var(--primary-900);
+  color: var(--text-100);
+}
+footer p {
+  color: var(--text-100);
+}
+#supports {
+  margin-top: 10px;
+}
+#leftblocking {
+  max-width: 550px;
+  margin: 50px auto auto 150px;
+  font-family: "Karla", sans-serif;
+}
+/* Background/hero image helpers */
+.bdybckgrndimg {
+  background-image: url('photos/mntlhlthbckgrnd.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.bdybckgrndimg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bdybckgrndimg > * {
+  position: relative;
+  z-index: 2;
+}
+.headbckimg {
+  background-image: url('photos/idbckgrnd.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 0;
+  
+}
+.headbckimg1 {
+  background-image: url('photos/healthbckground.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 0;
+  
+}
+.breakimg {
+  background-image: url('photos/horizontalimgs.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0;
+}
+.homeimgs {
+  background-image: url('photos/homeimg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 450px 0;
+}
+.rsrcimg {
+  background-image: url('photos/resourcesimg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 350px 0;
+}
