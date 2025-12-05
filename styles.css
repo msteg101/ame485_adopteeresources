@@ -92,28 +92,24 @@ body {
 
 .karla-light {
   font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
 .karla-regular {
   font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .karla-bold {
   font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
 .karla-italic {
   font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
 }
@@ -140,7 +136,7 @@ h1 {
   font-size: 5.61rem;
   text-align: center;
   margin: 0 auto 0.2rem auto;
-  padding: auto 20px;
+  padding: 0 20px;
 }
 
 h2 {
@@ -159,7 +155,7 @@ h3 {
   font-size: 3.157rem;
   margin: 0 auto;
   max-width: 1000px;
-  padding: auto 20px;
+  padding: 0 20px;
   text-align: center;
   padding-bottom: 20px;
 }
