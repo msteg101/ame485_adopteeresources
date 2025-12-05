@@ -115,7 +115,7 @@ table {
 
 /* Root / Base */
 html {
-  font-size: 17.5px; /* Set the root font size */
+  font-size: 18px; /* Set the root font size */
 }
 
 body {
@@ -280,14 +280,6 @@ ul {
 }
 
 /* Components */
-.quote {
-  border-left: 4px solid var(--primary);
-  margin: 1.5rem 0;
-  font-weight: 800;
-  background-color: var(--background-100);
-  padding: 1rem;
-}
-
 .alert {
   padding: 20px;
   color: white;
@@ -396,9 +388,10 @@ footer p {
 /* Background/hero image helpers */
 .bdybckgrndimg {
   background-image: url('photos/mntlhlthbckgrnd.png');
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  padding: 50px 0;
+  background-repeat: no-repeat;
+  padding: 150px 0;
   position: relative;
 }
 
@@ -420,7 +413,7 @@ footer p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 30px 0;
+  padding: 150px 0;
   
 }
 .headbckimg1 {
@@ -428,7 +421,7 @@ footer p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 30px 0;
+  padding: 150px 0;
   
 }
 .breakimg {
