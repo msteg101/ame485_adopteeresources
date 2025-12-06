@@ -250,7 +250,15 @@ h4 {
   padding: 1rem;
   line-height: 1.6;
 }
-
+.finalthoughts {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Karla", sans-serif;
+  color: var(--text-900);
+  font-size: 1.333rem;
+  padding-bottom: 50px;
+  text-align: justify;
+}
 /* Navigation */
 nav {
   color: var(--text-600);
